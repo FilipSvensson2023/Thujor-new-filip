@@ -1,0 +1,95 @@
+{
+  "type": "header",
+  "name": "t:static_sections.header.name",
+  "sections": {
+    "announcement": {
+      "type": "announcement-bar",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_palette": "dark",
+        "text": "<p><strong>Just nu, 15% rabatt på Planterad & Klar <\/strong>®<strong> - Boka idag!<\/strong><\/p>"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-block-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "show_mobile": false,
+            "button_menu": "main-menu",
+            "button_color": "accent"
+          }
+        },
+        "header-block-usp-1": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p><strong>Kundsupport: <\/strong>010-188 80 00 • <strong>Mån-Tor: <\/strong>09-12 & 13-15 <strong>Fre:<\/strong> 09-12<\/p>"
+          }
+        },
+        "8a42768e-1596-4cb5-9fa9-9b6e73299876": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p><strong>E-post: <\/strong>info@thujor.se<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "header-block-button-1",
+        "header-block-usp-1",
+        "8a42768e-1596-4cb5-9fa9-9b6e73299876"
+      ],
+      "settings": {
+        "layout": "layout_1",
+        "header_width": "boxed",
+        "top_bar_color": "light",
+        "header_color": "white",
+        "search_color": "white",
+        "menubar_color": "dark",
+        "logo": "shopify:\/\/shop_images\/Thujor_loggo_2023.png",
+        "logo_width": 300,
+        "svg_logo": "",
+        "show_top_bar": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "navbar_menu_item_text": "",
+        "navbar_menu_item_link": "#",
+        "enable_usp_slider": false,
+        "enable_usp_slider_arrows": true,
+        "enable_usp_slider_autoplay": true,
+        "usp_slider_autoplay_seconds": 5,
+        "enable_sticky_header": true,
+        "sticky": "sticky-menu",
+        "cart_icon": "cart|e903",
+        "cart_icon_color": "dark",
+        "menubar_menu": "main-meny-2023",
+        "menu_layout": "dropdown",
+        "show_dropdown_images": true,
+        "show_dropdown_images_autofill": true,
+        "menubar_center": true,
+        "menubar_divide_evenly": false,
+        "main_menu_items_clickable": false,
+        "menubar_caps": false,
+        "sale_highlight": false,
+        "menu_font": "title",
+        "menu_items_limit": 15,
+        "enable_socials": true,
+        "extra_image": "shopify:\/\/shop_images\/Jordbruksverket_RGB.jpg",
+        "extra_image_width": 150,
+        "extra_image_svg": "",
+        "extra_image_link": "",
+        "disable_online_store": false,
+        "logo_width_mobile": 140,
+        "mobile_svg_logo": "",
+        "search_compact_mobile": false
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

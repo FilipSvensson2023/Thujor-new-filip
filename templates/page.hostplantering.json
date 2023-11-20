@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_mobile": false
+      }
+    },
+    "844a9128-8aeb-4911-87b2-096572e3f11a": {
+      "type": "section-slideshow",
+      "blocks": {
+        "template--19902704484681__844a9128-8aeb-4911-87b2-096572e3f11a-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D33A5203-1-1620x1080.jpg",
+            "layout": "background",
+            "overlay_opacity": 0,
+            "color_palette": "dark",
+            "button_color_palette": "dark",
+            "text_position": "text-center",
+            "title_size": "size-50",
+            "title": "Hösten är den bästa tiden att plantera",
+            "text": "<p>Koppla av under sommaren och passa på att njuta av solens varma strålar. När värmen lagt sig kan du sätta igång med dina planteringsplaner och sätta händerna i jorden.<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/all",
+            "show_link": false,
+            "title_size_mobile": "mobile-size-18"
+          }
+        }
+      },
+      "block_order": [
+        "template--19902704484681__844a9128-8aeb-4911-87b2-096572e3f11a-slide-1"
+      ],
+      "settings": {
+        "height": "s",
+        "width": "wide",
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "m",
+        "spacing_desktop": 0,
+        "spacing_mobile": 0
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title_size": "h1"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "844a9128-8aeb-4911-87b2-096572e3f11a",
+    "main-page"
+  ]
+}
